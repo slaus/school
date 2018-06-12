@@ -1,0 +1,54 @@
+/*!
+ * Header content
+ */
+.header {
+
+  & .logo {
+    padding-top: 3px;
+    margin-right: 10px;
+  }
+  & .search-block {
+    //border-bottom: 3px solid $blue-light;
+    padding-bottom: 10px;
+    //padding-left: 0;
+    //padding-right: 0;
+  }
+  
+  .border-bottom {
+    display: table;
+    width: calc(100% - 30px);
+    margin: 0 auto;
+    height: 3px;
+    background: $blue-light;
+  }
+
+  #imaginary_container{
+    margin-top:10px;
+  }
+  .stylish-input-group {
+    float: right;
+  }
+  .stylish-input-group .input-group-addon{
+    background: $grey;
+    border-color: transparent;
+  }
+  .stylish-input-group .form-control{
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: transparent;
+    background: #f2f4f6;
+    width: calc(100% - 53px);
+  }
+  .stylish-input-group button{
+    border:0;
+    background:$grey;
+  }
+
+  .bottom-menu .nav.navbar-nav.navbar-right {
+    padding-right: 15px;
+  }
+  .bottom-menu .nav.navbar-nav.navbar-right .active a {
+    color: $blue;
+    font-weight: 700;
+  }
+}
